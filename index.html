@@ -8,16 +8,14 @@
 <body>
 <h1>Ryan's Website</h1>
 
-<canvas id="myCanvas" width="450" height="80" style="border:1px solid #d3d3d3;">
+<canvas id="myCanvas" width="450" height="80" style="border:1px #d3d3d3;">
 Your browser does not support the HTML5 canvas tag.</canvas>
-
-<p>Hello! Welcome to my website!</p>
 
 <script>
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.font = "30px Arial";
-ctx.strokeText("Hello! Welcome to my Website!",10,50);
+ctx.fillText("Hello! Welcome to my Website!",10,50);
 </script>
 
 
