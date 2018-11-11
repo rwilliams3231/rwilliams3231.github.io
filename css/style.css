@@ -10,4 +10,15 @@ h1 {
 p {
     font-family: veranda;
     font-size: 20px;
+    <head>
+<style>
+p.hometown { 
+    background: yellow;
+}
+#firstname {
+    background-color: pink;
+}
+</style>
+</head>
+<body>
 }
