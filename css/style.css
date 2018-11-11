@@ -1,24 +1,28 @@
+<head>
+<style>
+p.hometown { 
+    background: yellow;
+}
+#firstname {
+    background-color: pink;
+}
+</style>
+
 <div class="intro">
   <p id="firstname">My name is Ryan.</p>
   <p class="hometown">I live in Lehigh Acres.</p>
 </div>
 
-<head>
-<style>
-p.hometown { 
-    background: yellow;
+body {
+    background-color: lightblue;
 }
-#firstname {
-    background-color: pink;
+    
+h1 {
+    color: white;
+    text-align: center;
 }
-</style>
-
-<head>
-<style>
-p.hometown { 
-    background: yellow;
+    
+p {
+    font-family: veranda;
+    font-size: 20px;
 }
-#firstname {
-    background-color: pink;
-}
-</style>
