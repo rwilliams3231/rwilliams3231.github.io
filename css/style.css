@@ -1,7 +1,9 @@
 
 body {
     background-color: lightblue;
+}
 
+{
 <div class="intro">
   <p id="firstname">My name is Ryan.</p>
   <p class="hometown">I live in Lehigh Acres.</p>
